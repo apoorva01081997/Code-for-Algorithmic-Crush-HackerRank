@@ -3,9 +3,9 @@
 #include <stdlib.h>
 
 int main() {
-long n,q,temp=INT_MIN,k;
+long n,q,temp=INT_MIN,k;    //initialize variables
 int a,b,*p,i,j;
-    scanf("%ld%ld",&n,&q);
+    scanf("%ld%ld",&n,&q);   //take inputs
     p=(int *)calloc(n,sizeof(int));
     for(i=0; i < n; i++)
     {
